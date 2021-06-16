@@ -49,7 +49,6 @@
 }
 
 @media(max-width: 1590px) {
-
   /* Hero Swiper */
   .swiper-pagination-bullet {
     width: 20px;
@@ -112,7 +111,6 @@
     margin-right: 23px;
     padding: 20px 45px;
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -761,7 +759,7 @@
   }
 
   /* FAQ */
-    .faq__text {
+  .faq__text {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -804,16 +802,17 @@
     height: 34.4px;
     }
 
-    .social-list__item:not(:last-child) {
-      margin-right: 14.3px;
+  .social-list__item:not(:last-child) {
+    margin-right: 14.3px;
     }
 
-    .feedback__checkbox:checked+.feedback__label, .feedback__checkbox:not(:checked)+.feedback__label {
-      display: inline-block;
-      position: relative;
-      padding-left: 15px;
-      cursor: pointer;
-      font-size: 11px;
+  .feedback__checkbox:checked+.feedback__label, 
+  .feedback__checkbox:not(:checked)+.feedback__label {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 11px;
   }
 }
 
@@ -944,5 +943,4 @@
     margin-left: 15px;
     margin-bottom: 20px;
   }
-
 }
