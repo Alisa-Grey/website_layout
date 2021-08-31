@@ -23,9 +23,17 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 
   // Swiper
-  const swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
+    allowTouchMode: true,
+
+    keyboard: {
+      enabled: true,
+      pageUpDown: true,
+    },
+
+    mousewheel: true,
 
     pagination: {
       el: '.swiper-pagination',

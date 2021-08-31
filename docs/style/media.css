@@ -14,7 +14,7 @@
     padding-bottom: 3em;
   }
 
-  .swiper-container-horizontal>.swiper-pagination-bullets
+  .swiper-horizontal>.swiper-pagination-bullets
   .swiper-pagination-bullet {
     margin-bottom: 15px;
   }
@@ -171,11 +171,7 @@
   .header-nav-list__item:not(:first-child) {
     padding-left: 20px;
   }
-
-  .header-nav__close-btn {
-    display: inline-block;
-  }
-
+  
   .header__logo {
     display: flex;
     flex-direction: row;
@@ -202,7 +198,7 @@
     margin-bottom: 59px;
   }
 
-  .swiper-container {
+  .swiper {
     height: 668px;
   }
 
@@ -210,7 +206,7 @@
     width: 100%;
   }
 
-  .swiper-container-horizontal>.swiper-pagination-bullets {
+  .swiper-horizontal>.swiper-pagination-bullets {
     margin-left: 5px;
   }
 
@@ -401,7 +397,7 @@
     height: 700px;
   }
 
-  .swiper-container {
+  .swiper {
     height: 700px;
   }
 
@@ -672,7 +668,7 @@
     text-align: center;
   }
 
-  .swiper-container {
+  .swiper {
     height: 400px;
   }
 
@@ -833,7 +829,7 @@
     margin-bottom: 0;
   }
 
-  .swiper-container {
+  .swiper {
     max-height: 260px;
   }
 
